@@ -212,7 +212,7 @@ public class Job {
 
         // Вычленение хеша в строку
         String strongHash = hrefPlayer.substring(indexStart, i);
-        return "<iframe src=\"https://vk.com/video_ext.php?oid=" +  wallId + "&id" + videoId + "&hash=" + strongHash + "&hd=2\"";
+        return "<iframe src=\"https://vk.com/video_ext.php?oid=" +  wallId + "&id=" + videoId + "&hash" + strongHash + "&hd=2\"";
     }
 
     // Функция для получения адресса конкретной картинки

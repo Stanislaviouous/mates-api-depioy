@@ -32,7 +32,7 @@ public class Controller {
         // Подключаемся к vk и создаём actor при помощи accessToken
         TransportClient transportClient = HttpTransportClient.getInstance();
         VkApiClient vk = new VkApiClient(transportClient);
-        UserActor actor = new UserActor(7748712, "e66dd95bdeeba652fe74e72af86e7c1429ddac16c98af47d9eee88cafd9aebbb332ebfd5e3f8647011baf");
+        UserActor actor = new UserActor(, "");
 
         // Массив Json для считывания результата работы функции
         JSONArray jsonArray = new JSONArray();
